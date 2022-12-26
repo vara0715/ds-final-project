@@ -1,9 +1,9 @@
 #admin  Information..
 pin = 3996
 username = "Admin"
-username1 = input("Enter the username : ")
-pin1 = int(input("Enter the pin : "))
-if pin1 == pin and username1 == username :
+adminusername = input("Enter the username : ")
+adminpin = int(input("Enter the pin : "))
+if adminpin == pin and  adminusername== username :
 
     print("\nWelcome Admin!!")
     
@@ -19,7 +19,7 @@ if pin1 == pin and username1 == username :
             self.ordered_item=[]
         
         def option(self):
-            print("1. Add Food Item \n2. Edit Food Item\n3. View Food Item\n4. Delete Food Item")
+            print("1. Add Food Item \n 2. Edit Food Item\n 3. View Food Item\n 4. Delete Food Item")
             while True :
                 z=input()
                 if z=="1":
