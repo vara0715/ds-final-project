@@ -1,5 +1,5 @@
 #admin  Information..
-pin = 1234
+pin = 3996
 username = "Admin"
 username1 = input("Enter the username : ")
 pin1 = int(input("Enter the pin : "))
